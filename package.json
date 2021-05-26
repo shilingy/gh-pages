@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://shilingy.github.io/sly.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "yarn webpack serve",
-    "build": "webpack",
-    "homepage": "https://shilingy.github.io/sly.github.io"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
