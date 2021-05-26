@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --inline --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "homepage": "https://shilingy.github.io/sly.github.io"
   },
   "keywords": [],
   "author": "",
