@@ -24,7 +24,7 @@ jobs:
             # action命令，切换分支获取源码
             - name: Checkout
                 # 使用action库  actions/checkout获取源码
-                uses: actions/checkout@main
+                uses: actions/checkout@v2
             # action命令，安装Node10
             - name: use Node.js 10
                 # 使用action库  actions/setup-node安装node
@@ -32,7 +32,7 @@ jobs:
                 with:
                     node-version: 10
             # action命令，install && test
-            - name: npm install and test
+            - name: npm install and dev
                 # 运行的命令或者 action
                 run: |
                     npm install
