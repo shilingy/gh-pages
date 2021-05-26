@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "option": {
+      "type": "boolean",
+      "description": "姓名"
+    }
+  },
+  "additionalProperties": true
+}

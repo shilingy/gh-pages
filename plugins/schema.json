@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "from": {
+      "type": "string",
+      "description": "来源文件"
+    },
+    "to": {
+      "type": "string",
+      "description": "目标文件"
+    },
+    "ignore": {
+      "type": "array",
+      "description": "忽略文件"
+    }
+  },
+  "additionalProperties": false
+}
