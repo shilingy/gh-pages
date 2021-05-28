@@ -12,20 +12,20 @@ const port = 3000
 const server = http.createServer((req, res) => { 
   console.log(11, req.url)
   if(req.url !== '/favicon.ico') {
-    const getValue = url.parse(req.url, true).query
+    const getValue = url.parse(req.url, true).query // url.parse()已经弃用了
   }
   res.statusCode = 200
   res.setHeader('Content-Type', 'application/json')
   res.setHeader('charset', 'utf-8')
-  res.write('hello nodeJS')
-  res.end()
+  res.write('hello nodeJS 1111')
+  res.end() // 也是用来向前端返回数据
 });
 // 启动服务器
 server.listen(port, () => {
   console.log('服务器已启动');
   // 停止服务器
   // server.close(() => {
-  //   console.log('服务器已停止');
+  //   console.log('服务器已停止');  
   // });
 });
 
